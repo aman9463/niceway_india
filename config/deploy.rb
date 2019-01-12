@@ -6,8 +6,8 @@ set :repo_url, "https://github.com/aman9463/niceway_india.git"
 
 set :deploy_to, '/home/deploy/niceway_india'
 
-append :linked_files, "config/database.yml"
-append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle"
+set :linked_files, %w{config/database.yml config/master.key}
+set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
