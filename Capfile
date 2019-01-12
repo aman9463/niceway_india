@@ -3,7 +3,7 @@ require "capistrano/setup"
 
 # Include default deployment tasks
 require "capistrano/deploy"
-
+require 'capistrano/puma'
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"
@@ -34,7 +34,7 @@ set :rvm_ruby_version, '2.5.1'
 # require "capistrano/chruby"
 require "capistrano/bundler"
 require "capistrano/rails/assets"
-require "capistrano/rails/migrations"
+# require "capistrano/rails/migrations"
 # require "capistrano/passenger"
 
 
