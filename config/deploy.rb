@@ -4,7 +4,7 @@ lock "~> 3.11.0"
 set :application, "niceway_india"
 set :repo_url, "https://github.com/aman9463/niceway_india.git"
 
-set :deploy_to, '/home/deploy/my_aniceway_indiapp_name'
+set :deploy_to, '/home/deploy/niceway_india'
 
 append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle"
