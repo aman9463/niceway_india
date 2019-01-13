@@ -34,7 +34,7 @@ set :rvm_ruby_version, '2.5.1'
 # require "capistrano/chruby"
 require "capistrano/bundler"
 require "capistrano/rails/assets"
-# require "capistrano/rails/migrations"
+require "capistrano/rails/migrations"
 # require "capistrano/passenger"
 
 
