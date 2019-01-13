@@ -6,5 +6,5 @@ role :web, %w{deploy@139.59.36.233}
 role :db,  %w{deploy@139.59.36.233}
 
 
-server '139.59.36.233', user: 'deploy', roles: %w{web app db}
+server '139.59.36.233', user: 'deployn', roles: %w{web app db}
 
